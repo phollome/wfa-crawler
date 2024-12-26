@@ -7,3 +7,5 @@ storage
 
 # Application
 urls.txt
+.env
+episodes.json

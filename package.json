@@ -5,13 +5,16 @@
     "description": "This is an example of a Crawlee project.",
     "dependencies": {
         "crawlee": "^3.0.0",
-        "playwright": "*"
+        "dotenv": "^16.4.7",
+        "openai": "^4.76.0",
+        "playwright": "*",
+        "zod": "^3.23.8"
     },
     "devDependencies": {
         "@apify/tsconfig": "^0.1.0",
+        "@types/node": "^22.0.0",
         "tsx": "^4.4.0",
-        "typescript": "~5.7.0",
-        "@types/node": "^22.0.0"
+        "typescript": "~5.7.0"
     },
     "scripts": {
         "start": "npm run start:dev",
